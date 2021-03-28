@@ -10,7 +10,7 @@ The entrypoint calls the bulter cli (`/butler/butler`) so override the `command`
 version: '2'
 services:
   upload:
-    image: robpc/butler-cli:15.20.0
+    image: robpc/itchio-butler:latest
     volumes:
       - ./:/project
     env_file: secrets.env # contains BUTLER_API_KEY=
