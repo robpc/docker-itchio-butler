@@ -1,6 +1,6 @@
-# docker-itchio-bulter
+# docker-itchio-butler
 
-Docker builds for itch.io's [bulter cli](https://itch.io/docs/butler/) used to upload to itch.io
+Docker builds for itch.io's [butler cli](https://itch.io/docs/butler/) used to upload to itch.io
 
 The entrypoint calls the bulter cli (`/butler/butler`) so override the `command` with any arguments (default is `--help`).
 
