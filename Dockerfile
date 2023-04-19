@@ -1,6 +1,6 @@
 FROM debian:stable-slim AS base
 
-ARG VERSION=15.20.0
+ARG VERSION=15.21.0
 
 FROM base AS download
 
